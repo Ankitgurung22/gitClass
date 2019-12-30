@@ -1,0 +1,23 @@
+﻿<Window x:Class="CourseWorkSample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CourseWorkSample"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="Name" Content="Name" HorizontalAlignment="Left" Margin="49,30,0,0" VerticalAlignment="Top" Width="76" Height="49" FontSize="24"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Height="36" Margin="187,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="176" FontSize="24" TextChanged="txtName_TextChanged"/>
+        <Button x:Name="Btn1" Content="OK" HorizontalAlignment="Left" Margin="290,296,0,0" VerticalAlignment="Top" Width="139" Height="60" RenderTransformOrigin="0.535,0.172" Click="Btn1_Click"/>
+        <TextBox x:Name="txtAddress" HorizontalAlignment="Left" Height="38" Margin="185,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" FontSize="24"/>
+        <Label x:Name="Address" Content="Address" HorizontalAlignment="Left" Margin="49,112,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.855,-2.077" Width="99" Height="38" FontSize="24"/>
+        <Label x:Name="ContactNo" Content="ContactNo" HorizontalAlignment="Left" Margin="429,28,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.855,-2.077" Width="123" Height="38" FontSize="24"/>
+        <Label x:Name="CourseEnroll" Content="CourseEnroll" HorizontalAlignment="Left" Margin="404,112,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.855,-2.077" Width="148" Height="38" FontSize="24"/>
+        <TextBox x:Name="txtContact" HorizontalAlignment="Left" Height="38" Margin="571,28,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="177" FontSize="24"/>
+        <Label x:Name="Registration_Date" Content="Registration Date" HorizontalAlignment="Left" Margin="150,210,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.855,-2.077" Width="200" Height="38" FontSize="24"/>
+        <TextBox x:Name="txtRegisDate" HorizontalAlignment="Left" Height="38" Margin="368,210,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="213" FontSize="24"/>
+        <ComboBox x:Name="txtCourseEnroll" HorizontalAlignment="Left" Margin="571,112,0,0" VerticalAlignment="Top" Width="177" Height="38"/>
+
+    </Grid>
+</Window>
